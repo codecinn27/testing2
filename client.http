@@ -1,0 +1,37 @@
+
+//must write this to create another new request
+###
+
+
+
+GET http://localhost:3000/bye
+
+//if want to run another server must close the server at the terminal
+// ctrl + c for a faster reset
+// if a normal way, cmd -> node index.js then run at client here
+
+// POST  is used for create resourcees
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "username": "yee cinn",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/login
+
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "yee cinn",
+    "password": "123456",
+    "email":"kobe0@gmail.com"
+}
+
+
